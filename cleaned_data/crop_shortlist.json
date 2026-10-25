@@ -1,0 +1,27 @@
+{
+  "threshold_min_states": 19,
+  "n_crops": 21,
+  "crops": [
+    "Arhar/Tur",
+    "Bajra",
+    "Cotton(Lint)",
+    "Gram",
+    "Groundnut",
+    "Jowar",
+    "Linseed",
+    "Maize",
+    "Masoor",
+    "Moong(Green Gram)",
+    "Other Kharif Pulses",
+    "Other Rabi Pulses",
+    "Peas & Beans (Pulses)",
+    "Rapeseed &Mustard",
+    "Rice",
+    "Sesamum",
+    "Small Millets",
+    "Soyabean",
+    "Sunflower",
+    "Urad",
+    "Wheat"
+  ]
+}

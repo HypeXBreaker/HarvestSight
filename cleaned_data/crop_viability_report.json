@@ -1,0 +1,1535 @@
+[
+  {
+    "crop": "Other Rabi Pulses",
+    "n_states": 28,
+    "n_cells": 348,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Rice",
+    "n_states": 28,
+    "n_cells": 847,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Maize",
+    "n_states": 26,
+    "n_cells": 902,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Rapeseed &Mustard",
+    "n_states": 26,
+    "n_cells": 520,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Sesamum",
+    "n_states": 26,
+    "n_cells": 579,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Wheat",
+    "n_states": 26,
+    "n_cells": 538,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Arhar/Tur",
+    "n_states": 25,
+    "n_cells": 539,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Groundnut",
+    "n_states": 25,
+    "n_cells": 652,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Other Kharif Pulses",
+    "n_states": 25,
+    "n_cells": 375,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Urad",
+    "n_states": 25,
+    "n_cells": 677,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Cotton(Lint)",
+    "n_states": 24,
+    "n_cells": 450,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Gram",
+    "n_states": 24,
+    "n_cells": 494,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Moong(Green Gram)",
+    "n_states": 24,
+    "n_cells": 696,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Small Millets",
+    "n_states": 23,
+    "n_cells": 499,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Masoor",
+    "n_states": 22,
+    "n_cells": 325,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Madhya Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Soyabean",
+    "n_states": 22,
+    "n_cells": 376,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Sikkim",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Jowar",
+    "n_states": 21,
+    "n_cells": 502,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Peas & Beans (Pulses)",
+    "n_states": 20,
+    "n_cells": 356,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Arunachal Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Bajra",
+    "n_states": 19,
+    "n_cells": 480,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Linseed",
+    "n_states": 19,
+    "n_cells": 327,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Telangana",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Sunflower",
+    "n_states": 19,
+    "n_cells": 454,
+    "n_years": 23,
+    "included": true,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Castor Seed",
+    "n_states": 18,
+    "n_cells": 333,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Ginger",
+    "n_states": 18,
+    "n_cells": 174,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Ragi",
+    "n_states": 18,
+    "n_cells": 401,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Goa",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nagaland",
+      "Odisha",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Onion",
+    "n_states": 16,
+    "n_cells": 245,
+    "n_years": 22,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "crop": "Potato",
+    "n_states": 16,
+    "n_cells": 287,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Mesta",
+    "n_states": 15,
+    "n_cells": 210,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Horse-Gram",
+    "n_states": 14,
+    "n_cells": 358,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Nagaland",
+      "Odisha",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Barley",
+    "n_states": 13,
+    "n_cells": 267,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Madhya Pradesh",
+      "Nagaland",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Other Oilseeds",
+    "n_states": 13,
+    "n_cells": 106,
+    "n_years": 21,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Gujarat",
+      "Haryana",
+      "Maharashtra",
+      "Mizoram",
+      "Nagaland",
+      "Punjab",
+      "Rajasthan",
+      "Sikkim",
+      "Telangana",
+      "Tripura",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "crop": "Tobacco",
+    "n_states": 13,
+    "n_cells": 110,
+    "n_years": 16,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Meghalaya",
+      "Mizoram",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "crop": "Dry Chillies",
+    "n_states": 12,
+    "n_cells": 166,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Karnataka",
+      "Manipur",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Niger Seed",
+    "n_states": 12,
+    "n_cells": 190,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nagaland",
+      "Odisha",
+      "Telangana",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Cowpea(Lobia)",
+    "n_states": 11,
+    "n_cells": 125,
+    "n_years": 12,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Odisha",
+      "Tamil Nadu",
+      "Telangana",
+      "Tripura"
+    ]
+  },
+  {
+    "crop": "Jute",
+    "n_states": 11,
+    "n_cells": 150,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Assam",
+      "Bihar",
+      "Jharkhand",
+      "Madhya Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Tripura",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Sugarcane",
+    "n_states": 11,
+    "n_cells": 54,
+    "n_years": 18,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Chhattisgarh",
+      "Himachal Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Nagaland",
+      "Rajasthan",
+      "Telangana",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Safflower",
+    "n_states": 10,
+    "n_cells": 181,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Odisha",
+      "Telangana",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Sannhamp",
+    "n_states": 9,
+    "n_cells": 68,
+    "n_years": 18,
+    "included": false,
+    "states": [
+      "Bihar",
+      "Chhattisgarh",
+      "Haryana",
+      "Himachal Pradesh",
+      "Madhya Pradesh",
+      "Odisha",
+      "Rajasthan",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Moth",
+    "n_states": 8,
+    "n_cells": 119,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Punjab",
+      "Rajasthan",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Other Cereals",
+    "n_states": 8,
+    "n_cells": 117,
+    "n_years": 22,
+    "included": false,
+    "states": [
+      "Gujarat",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Nagaland",
+      "Sikkim",
+      "Tamil Nadu",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "crop": "Sweet Potato",
+    "n_states": 8,
+    "n_cells": 68,
+    "n_years": 17,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Manipur",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Telangana",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Turmeric",
+    "n_states": 8,
+    "n_cells": 56,
+    "n_years": 17,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Himachal Pradesh",
+      "Manipur",
+      "Meghalaya",
+      "Nagaland",
+      "Odisha",
+      "Telangana",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Coriander",
+    "n_states": 6,
+    "n_cells": 54,
+    "n_years": 17,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Chhattisgarh",
+      "Himachal Pradesh",
+      "Odisha",
+      "Telangana",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Garlic",
+    "n_states": 6,
+    "n_cells": 37,
+    "n_years": 16,
+    "included": false,
+    "states": [
+      "Chhattisgarh",
+      "Himachal Pradesh",
+      "Odisha",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Guar Seed",
+    "n_states": 6,
+    "n_cells": 32,
+    "n_years": 13,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Banana",
+    "n_states": 5,
+    "n_cells": 33,
+    "n_years": 15,
+    "included": false,
+    "states": [
+      "Manipur",
+      "Meghalaya",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh"
+    ]
+  },
+  {
+    "crop": "Khesari",
+    "n_states": 5,
+    "n_cells": 74,
+    "n_years": 23,
+    "included": false,
+    "states": [
+      "Bihar",
+      "Chhattisgarh",
+      "Madhya Pradesh",
+      "Tripura",
+      "West Bengal"
+    ]
+  },
+  {
+    "crop": "Other Misc. Pulses",
+    "n_states": 5,
+    "n_cells": 8,
+    "n_years": 2,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Chhattisgarh",
+      "Madhya Pradesh",
+      "Telangana"
+    ]
+  },
+  {
+    "crop": "Tapioca",
+    "n_states": 4,
+    "n_cells": 55,
+    "n_years": 17,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Arecanut",
+    "n_states": 3,
+    "n_cells": 24,
+    "n_years": 11,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam",
+      "Meghalaya"
+    ]
+  },
+  {
+    "crop": "Black Pepper",
+    "n_states": 3,
+    "n_cells": 8,
+    "n_years": 8,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Meghalaya"
+    ]
+  },
+  {
+    "crop": "Cashewnut",
+    "n_states": 3,
+    "n_cells": 20,
+    "n_years": 8,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Meghalaya",
+      "Telangana"
+    ]
+  },
+  {
+    "crop": "Kapas",
+    "n_states": 3,
+    "n_cells": 3,
+    "n_years": 2,
+    "included": false,
+    "states": [
+      "Manipur",
+      "Meghalaya",
+      "Mizoram"
+    ]
+  },
+  {
+    "crop": "Korra",
+    "n_states": 3,
+    "n_cells": 19,
+    "n_years": 7,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Telangana"
+    ]
+  },
+  {
+    "crop": "Samai",
+    "n_states": 3,
+    "n_cells": 15,
+    "n_years": 7,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Telangana"
+    ]
+  },
+  {
+    "crop": "Varagu",
+    "n_states": 3,
+    "n_cells": 12,
+    "n_years": 7,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Telangana"
+    ]
+  },
+  {
+    "crop": "Other Summer Pulses",
+    "n_states": 2,
+    "n_cells": 6,
+    "n_years": 4,
+    "included": false,
+    "states": [
+      "Maharashtra",
+      "Uttarakhand"
+    ]
+  },
+  {
+    "crop": "Papaya",
+    "n_states": 2,
+    "n_cells": 9,
+    "n_years": 4,
+    "included": false,
+    "states": [
+      "Andhra Pradesh",
+      "Assam"
+    ]
+  },
+  {
+    "crop": "Brinjal",
+    "n_states": 1,
+    "n_cells": 6,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Cabbage",
+    "n_states": 1,
+    "n_cells": 6,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Cardamom",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Coconut",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Mizoram"
+    ]
+  },
+  {
+    "crop": "Colocosia",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Grapes",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Jobster",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Jute & Mesta",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Tripura"
+    ]
+  },
+  {
+    "crop": "Lemon",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Mango",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Orange",
+    "n_states": 1,
+    "n_cells": 4,
+    "n_years": 4,
+    "included": false,
+    "states": [
+      "Assam"
+    ]
+  },
+  {
+    "crop": "Perilla",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Pineapple",
+    "n_states": 1,
+    "n_cells": 4,
+    "n_years": 4,
+    "included": false,
+    "states": [
+      "Assam"
+    ]
+  },
+  {
+    "crop": "Pome Granet",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Rajmash Kholar",
+    "n_states": 1,
+    "n_cells": 2,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Ricebean (Nagadal)",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Sapota",
+    "n_states": 1,
+    "n_cells": 3,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  },
+  {
+    "crop": "Tea",
+    "n_states": 1,
+    "n_cells": 1,
+    "n_years": 1,
+    "included": false,
+    "states": [
+      "Nagaland"
+    ]
+  },
+  {
+    "crop": "Tomato",
+    "n_states": 1,
+    "n_cells": 6,
+    "n_years": 3,
+    "included": false,
+    "states": [
+      "Andhra Pradesh"
+    ]
+  }
+]

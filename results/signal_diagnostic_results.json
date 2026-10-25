@@ -1,0 +1,1278 @@
+{
+  "verdict": "SIGNAL PRESENT",
+  "rule": {
+    "test_auc_min": 0.55,
+    "val_auc_min": 0.53,
+    "ci_lower_bound_min": 0.5
+  },
+  "n_individual_tests": 100,
+  "n_individual_passes": 14,
+  "combined_models": [
+    {
+      "season": "Kharif",
+      "train_auc": 0.6131995198015884,
+      "val_auc": 0.7226227815177478,
+      "test_auc": 0.5487277033683372,
+      "test_ci95": [
+        0.47411308337136404,
+        0.6283738110182995
+      ],
+      "pass": false,
+      "top_coefficients": [
+        {
+          "feature": "PRECTOTCORR_season_mean",
+          "weight": 0.11444377823822946
+        },
+        {
+          "feature": "T2M_MIN_early_mean",
+          "weight": -0.0912986156784908
+        },
+        {
+          "feature": "GWETROOT_late_mean",
+          "weight": -0.09126895285790312
+        }
+      ]
+    },
+    {
+      "season": "Rabi",
+      "train_auc": 0.6092746400885936,
+      "val_auc": 0.633170389017358,
+      "test_auc": 0.5197720767704437,
+      "test_ci95": [
+        0.43425594268967765,
+        0.6002375638902887
+      ],
+      "pass": false,
+      "top_coefficients": [
+        {
+          "feature": "GWETROOT_early_mean",
+          "weight": -0.11842453904297104
+        },
+        {
+          "feature": "RH2M_mid_mean",
+          "weight": 0.11715992142303018
+        },
+        {
+          "feature": "GWETROOT_season_mean",
+          "weight": -0.11402322444387655
+        }
+      ]
+    },
+    {
+      "season": "Summer",
+      "train_auc": 0.6231360671015843,
+      "val_auc": 0.4953168044077135,
+      "test_auc": 0.5164119977362762,
+      "test_ci95": [
+        0.3886029411764706,
+        0.6199737762237763
+      ],
+      "pass": false,
+      "top_coefficients": [
+        {
+          "feature": "GWETROOT_late_mean",
+          "weight": 0.1800489889624372
+        },
+        {
+          "feature": "GWETROOT_season_mean",
+          "weight": 0.16202194836837297
+        },
+        {
+          "feature": "RH2M_mid_mean",
+          "weight": 0.12214477479886163
+        }
+      ]
+    }
+  ],
+  "individual_features": [
+    {
+      "group": "ALL",
+      "feature": "PRECTOTCORR_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5430706766662787,
+      "val_auc_oriented": 0.6836687202518041,
+      "test_auc_oriented": 0.5580103177521576,
+      "test_ci95": [
+        0.49678129074315514,
+        0.6066632546123663
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "PRECTOTCORR_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.539872271354356,
+      "val_auc_oriented": 0.6026480692461231,
+      "test_auc_oriented": 0.5182602041919924,
+      "test_ci95": [
+        0.46702257717070195,
+        0.5676429838030098
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "PRECTOTCORR_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5280054360156876,
+      "val_auc_oriented": 0.6167544718255796,
+      "test_auc_oriented": 0.5248561571240077,
+      "test_ci95": [
+        0.4725895851721094,
+        0.5754363579147933
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "PRECTOTCORR_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5048420951285182,
+      "val_auc_oriented": 0.5799338822355289,
+      "test_auc_oriented": 0.5430636369535593,
+      "test_ci95": [
+        0.4857686667060375,
+        0.6044688330851404
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5671782071430772,
+      "val_auc_oriented": 0.6098835981882389,
+      "test_auc_oriented": 0.48666479202266877,
+      "test_ci95": [
+        0.4317567327716774,
+        0.5342250377073906
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5309267396056517,
+      "val_auc_oriented": 0.5523784162444342,
+      "test_auc_oriented": 0.4964525967424455,
+      "test_ci95": [
+        0.44624392499126103,
+        0.5392900394422532
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5550365852509714,
+      "val_auc_oriented": 0.6085449293720252,
+      "test_auc_oriented": 0.46899807488481754,
+      "test_ci95": [
+        0.41779503825643405,
+        0.5158101663961039
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5481685979163803,
+      "val_auc_oriented": 0.587318152157224,
+      "test_auc_oriented": 0.4936325193052281,
+      "test_ci95": [
+        0.4240270964513382,
+        0.5393679740957967
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MAX_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5690970028466993,
+      "val_auc_oriented": 0.6617702095808383,
+      "test_auc_oriented": 0.5171448811403604,
+      "test_ci95": [
+        0.45090779080949134,
+        0.5808815678248876
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MAX_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5413988854938406,
+      "val_auc_oriented": 0.5851350184246891,
+      "test_auc_oriented": 0.5223497220479765,
+      "test_ci95": [
+        0.469259004659754,
+        0.5607926001595276
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MAX_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.561746342792154,
+      "val_auc_oriented": 0.6561804276063258,
+      "test_auc_oriented": 0.5021062706841729,
+      "test_ci95": [
+        0.44942527434803436,
+        0.5501957696497719
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MAX_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5486915865019608,
+      "val_auc_oriented": 0.6234862006755719,
+      "test_auc_oriented": 0.5049263481213904,
+      "test_ci95": [
+        0.4441074632108492,
+        0.5583812456820337
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MIN_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5527806531106365,
+      "val_auc_oriented": 0.510591797174881,
+      "test_auc_oriented": 0.45833693841794465,
+      "test_ci95": [
+        0.4117841740364669,
+        0.5024293719498737
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MIN_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5150608897304393,
+      "val_auc_oriented": 0.4623421426378013,
+      "test_auc_oriented": 0.47291049295926973,
+      "test_ci95": [
+        0.4197670873158104,
+        0.5227919059338255
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MIN_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5256783723183762,
+      "val_auc_oriented": 0.4836169008137571,
+      "test_auc_oriented": 0.4453397071229262,
+      "test_ci95": [
+        0.3940419375758684,
+        0.49516052066488164
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "T2M_MIN_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5367533002727268,
+      "val_auc_oriented": 0.5282008099186243,
+      "test_auc_oriented": 0.46754883087106053,
+      "test_ci95": [
+        0.4140585144373023,
+        0.5149784046096522
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "RH2M_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5539862172429599,
+      "val_auc_oriented": 0.6858566520804545,
+      "test_auc_oriented": 0.5373261447946183,
+      "test_ci95": [
+        0.4809959574849857,
+        0.5953287595231329
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "RH2M_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.544265622956764,
+      "val_auc_oriented": 0.6267009250729311,
+      "test_auc_oriented": 0.5452456144145703,
+      "test_ci95": [
+        0.4900366389533868,
+        0.5940998978245136
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "RH2M_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5488691359775113,
+      "val_auc_oriented": 0.70567278903731,
+      "test_auc_oriented": 0.5361067249248339,
+      "test_ci95": [
+        0.47810137839039574,
+        0.5872187514147313
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "RH2M_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5297998113696489,
+      "val_auc_oriented": 0.6295270036849379,
+      "test_auc_oriented": 0.5262648439358872,
+      "test_ci95": [
+        0.4601661817597236,
+        0.5808076204366255
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "GWETROOT_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5724499256990572,
+      "val_auc_oriented": 0.7248027982496545,
+      "test_auc_oriented": 0.5549982695593866,
+      "test_ci95": [
+        0.49341381311085103,
+        0.6154742397480368
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "GWETROOT_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5523125899023845,
+      "val_auc_oriented": 0.6384418662674651,
+      "test_auc_oriented": 0.5533029785209058,
+      "test_ci95": [
+        0.5003004349443967,
+        0.6015710096355258
+      ],
+      "pass": true
+    },
+    {
+      "group": "ALL",
+      "feature": "GWETROOT_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5654897307906077,
+      "val_auc_oriented": 0.7000398241977583,
+      "test_auc_oriented": 0.5398988233003829,
+      "test_ci95": [
+        0.4907158458578189,
+        0.5996527027513685
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "GWETROOT_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5549468125957302,
+      "val_auc_oriented": 0.6823276523875326,
+      "test_auc_oriented": 0.5430974346217905,
+      "test_ci95": [
+        0.4854288676171628,
+        0.6008581453813251
+      ],
+      "pass": false
+    },
+    {
+      "group": "ALL",
+      "feature": "PRECTOTCORR_max_week",
+      "direction": "-",
+      "train_auc_oriented": 0.525397478510047,
+      "val_auc_oriented": 0.6491032358360203,
+      "test_auc_oriented": 0.5385644913586122,
+      "test_ci95": [
+        0.49086152838812847,
+        0.5913907103182997
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "PRECTOTCORR_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5670263207655031,
+      "val_auc_oriented": 0.7411165085679314,
+      "test_auc_oriented": 0.5938030560271648,
+      "test_ci95": [
+        0.5141512605042017,
+        0.660512693855289
+      ],
+      "pass": true
+    },
+    {
+      "group": "Kharif",
+      "feature": "PRECTOTCORR_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5610375825615859,
+      "val_auc_oriented": 0.6444595318237454,
+      "test_auc_oriented": 0.5323471462407512,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "PRECTOTCORR_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5538947960915719,
+      "val_auc_oriented": 0.7524766676866586,
+      "test_auc_oriented": 0.5887725586367352,
+      "test_ci95": [
+        0.5158247422680412,
+        0.658206801997217
+      ],
+      "pass": true
+    },
+    {
+      "group": "Kharif",
+      "feature": "PRECTOTCORR_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5229446452600195,
+      "val_auc_oriented": 0.6425852968176254,
+      "test_auc_oriented": 0.5621004422645622,
+      "test_ci95": [
+        0.483077528532074,
+        0.6400202472293265
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5842350795493523,
+      "val_auc_oriented": 0.6261379283965728,
+      "test_auc_oriented": 0.5225691169381039,
+      "test_ci95": [
+        0.45691532418966835,
+        0.5918864097363083
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5429402698257741,
+      "val_auc_oriented": 0.5316229345165239,
+      "test_auc_oriented": 0.5133884592005701,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.569865405925965,
+      "val_auc_oriented": 0.6702589504283966,
+      "test_auc_oriented": 0.4806168647425014,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5679500540882826,
+      "val_auc_oriented": 0.6325830018359853,
+      "test_auc_oriented": 0.5332484436898698,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MAX_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5956576563503162,
+      "val_auc_oriented": 0.7116642441860465,
+      "test_auc_oriented": 0.5529617053386153,
+      "test_ci95": [
+        0.4734056691538038,
+        0.6330299872143371
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MAX_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5522518095388864,
+      "val_auc_oriented": 0.5743478427172583,
+      "test_auc_oriented": 0.5559695235699763,
+      "test_ci95": [
+        0.4837942192130951,
+        0.622197693449549
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MAX_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5826814156178817,
+      "val_auc_oriented": 0.7243631425948592,
+      "test_auc_oriented": 0.5284275503573749,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MAX_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5782625568366709,
+      "val_auc_oriented": 0.68703144124847,
+      "test_auc_oriented": 0.5288781990819342,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MIN_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5529364330756444,
+      "val_auc_oriented": 0.5014630507955936,
+      "test_auc_oriented": 0.4789609926848184,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MIN_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5217207879299579,
+      "val_auc_oriented": 0.393484164626683,
+      "test_auc_oriented": 0.4823146576117714,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MIN_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5262300686877215,
+      "val_auc_oriented": 0.4724124082007344,
+      "test_auc_oriented": 0.43408476388102873,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "T2M_MIN_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5382561915692637,
+      "val_auc_oriented": 0.5236669981640147,
+      "test_auc_oriented": 0.4909084239870884,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "RH2M_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5902089764562061,
+      "val_auc_oriented": 0.7360292992656059,
+      "test_auc_oriented": 0.5812792135655747,
+      "test_ci95": [
+        0.5049596125799334,
+        0.6599844145723748
+      ],
+      "pass": true
+    },
+    {
+      "group": "Kharif",
+      "feature": "RH2M_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5592846604750974,
+      "val_auc_oriented": 0.6066305844553244,
+      "test_auc_oriented": 0.5703588421471839,
+      "test_ci95": [
+        0.492234121641986,
+        0.6394528617698846
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "RH2M_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5838508548587109,
+      "val_auc_oriented": 0.7643149479804161,
+      "test_auc_oriented": 0.5689020939445388,
+      "test_ci95": [
+        0.497520627565744,
+        0.6408313185791333
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "RH2M_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5673080305708733,
+      "val_auc_oriented": 0.7163498317013464,
+      "test_auc_oriented": 0.5594803915403802,
+      "test_ci95": [
+        0.4712518025771038,
+        0.6380159228996438
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "GWETROOT_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5932294552474429,
+      "val_auc_oriented": 0.7462419675642595,
+      "test_auc_oriented": 0.5862992307531074,
+      "test_ci95": [
+        0.5094613114062829,
+        0.6624786005234263
+      ],
+      "pass": true
+    },
+    {
+      "group": "Kharif",
+      "feature": "GWETROOT_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5528541188447095,
+      "val_auc_oriented": 0.5933770654834761,
+      "test_auc_oriented": 0.5620270808442851,
+      "test_ci95": [
+        0.49492740046838407,
+        0.6281282806732364
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "GWETROOT_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5776367488104975,
+      "val_auc_oriented": 0.7580611230110159,
+      "test_auc_oriented": 0.5771919344358507,
+      "test_ci95": [
+        0.5070053475935828,
+        0.6532793750973975
+      ],
+      "pass": true
+    },
+    {
+      "group": "Kharif",
+      "feature": "GWETROOT_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5844016318830638,
+      "val_auc_oriented": 0.73859202876377,
+      "test_auc_oriented": 0.5661458005826993,
+      "test_ci95": [
+        0.48589791356184797,
+        0.6331308155446086
+      ],
+      "pass": false
+    },
+    {
+      "group": "Kharif",
+      "feature": "PRECTOTCORR_max_week",
+      "direction": "-",
+      "train_auc_oriented": 0.5225994476838782,
+      "val_auc_oriented": 0.6757860312117503,
+      "test_auc_oriented": 0.576908968957639,
+      "test_ci95": [
+        0.5033248371566128,
+        0.6506550488196762
+      ],
+      "pass": true
+    },
+    {
+      "group": "Rabi",
+      "feature": "PRECTOTCORR_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5181071033064388,
+      "val_auc_oriented": 0.6633199660451365,
+      "test_auc_oriented": 0.5411947532002318,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "PRECTOTCORR_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5249583399251173,
+      "val_auc_oriented": 0.6668032666920353,
+      "test_auc_oriented": 0.5589825984652935,
+      "test_ci95": [
+        0.4523095027949397,
+        0.6522872476360848
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "PRECTOTCORR_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5048262405737489,
+      "val_auc_oriented": 0.5277346837221556,
+      "test_auc_oriented": 0.525584294719837,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "PRECTOTCORR_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5188778146917682,
+      "val_auc_oriented": 0.4792611890056494,
+      "test_auc_oriented": 0.494451175613268,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5575270263144018,
+      "val_auc_oriented": 0.6293065597283611,
+      "test_auc_oriented": 0.46949902544381816,
+      "test_ci95": [
+        0.38700152451255715,
+        0.5445155281399823
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5252641987027369,
+      "val_auc_oriented": 0.6230717442847525,
+      "test_auc_oriented": 0.5188414195157071,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5456138269261193,
+      "val_auc_oriented": 0.5709978631853174,
+      "test_auc_oriented": 0.4758907092310664,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5311477614301534,
+      "val_auc_oriented": 0.5436876152562714,
+      "test_auc_oriented": 0.44602187922527176,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MAX_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5452531245056162,
+      "val_auc_oriented": 0.6761115827064368,
+      "test_auc_oriented": 0.486724964441869,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MAX_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5477237251489743,
+      "val_auc_oriented": 0.672569739191523,
+      "test_auc_oriented": 0.5081125217299689,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MAX_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5455547645414756,
+      "val_auc_oriented": 0.657934022187747,
+      "test_auc_oriented": 0.48021036365871217,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MAX_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5174790381268787,
+      "val_auc_oriented": 0.5855164944530633,
+      "test_auc_oriented": 0.4537480903966707,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MIN_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5596501081052576,
+      "val_auc_oriented": 0.5389163715130404,
+      "test_auc_oriented": 0.4528525522836222,
+      "test_ci95": [
+        0.38617276762972125,
+        0.5259715392981328
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MIN_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5016149870801033,
+      "val_auc_oriented": 0.49846324971460354,
+      "test_auc_oriented": 0.46705824509648985,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MIN_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5339326583346516,
+      "val_auc_oriented": 0.49111611977870795,
+      "test_auc_oriented": 0.48886723208484784,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "T2M_MIN_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5425758055160048,
+      "val_auc_oriented": 0.5391212715510932,
+      "test_auc_oriented": 0.4451439006830673,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "RH2M_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5196959869219006,
+      "val_auc_oriented": 0.6976553581359951,
+      "test_auc_oriented": 0.514872956504943,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "RH2M_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5450833201497653,
+      "val_auc_oriented": 0.7345080935515031,
+      "test_auc_oriented": 0.535101582117333,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "RH2M_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5147389653535832,
+      "val_auc_oriented": 0.7240289201767995,
+      "test_auc_oriented": 0.5221250592635516,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "RH2M_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5161432790170332,
+      "val_auc_oriented": 0.4376957527149255,
+      "test_auc_oriented": 0.5288503748968375,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "GWETROOT_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5627783051204978,
+      "val_auc_oriented": 0.7529783684102684,
+      "test_auc_oriented": 0.5358039649510966,
+      "test_ci95": [
+        0.44822222222222224,
+        0.6219912644544997
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "GWETROOT_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5673698781838317,
+      "val_auc_oriented": 0.763135556010889,
+      "test_auc_oriented": 0.5509754341603892,
+      "test_ci95": [
+        0.4619646073134445,
+        0.6245277927684836
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "GWETROOT_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5611274587354322,
+      "val_auc_oriented": 0.7327225360770424,
+      "test_auc_oriented": 0.5369980157684946,
+      "test_ci95": [
+        0.4439360929557008,
+        0.6246978901299889
+      ],
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "GWETROOT_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5261319411485524,
+      "val_auc_oriented": 0.6598805725492491,
+      "test_auc_oriented": 0.4924406047516199,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Rabi",
+      "feature": "PRECTOTCORR_max_week",
+      "direction": "-",
+      "train_auc_oriented": 0.5309610821072615,
+      "val_auc_oriented": 0.6532798641805462,
+      "test_auc_oriented": 0.5222304166886161,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "PRECTOTCORR_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5147794346070208,
+      "val_auc_oriented": 0.5333333333333333,
+      "test_auc_oriented": 0.6295981890209394,
+      "test_ci95": [
+        0.519350811485643,
+        0.7215988779803647
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "PRECTOTCORR_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5613699906803356,
+      "val_auc_oriented": 0.5977961432506887,
+      "test_auc_oriented": 0.5994623655913979,
+      "test_ci95": [
+        0.46582602339181284,
+        0.7366071428571429
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "PRECTOTCORR_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5008931345138241,
+      "val_auc_oriented": 0.44628099173553715,
+      "test_auc_oriented": 0.35653650254668934,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "PRECTOTCORR_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5085818577197887,
+      "val_auc_oriented": 0.4820936639118457,
+      "test_auc_oriented": 0.5104697226938314,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5146707051879466,
+      "val_auc_oriented": 0.5647382920110193,
+      "test_auc_oriented": 0.6666666666666667,
+      "test_ci95": [
+        0.5450725744843392,
+        0.7595959595959596
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5297840944392669,
+      "val_auc_oriented": 0.5796143250688706,
+      "test_auc_oriented": 0.5857385398981324,
+      "test_ci95": [
+        0.4399712437095615,
+        0.7049157303370787
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5287899968934452,
+      "val_auc_oriented": 0.5542699724517907,
+      "test_auc_oriented": 0.6171477079796265,
+      "test_ci95": [
+        0.4793621013133208,
+        0.7144012944983819
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.504403541472507,
+      "val_auc_oriented": 0.5024793388429752,
+      "test_auc_oriented": 0.3831352574985852,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MAX_season_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5219400434917676,
+      "val_auc_oriented": 0.5702479338842975,
+      "test_auc_oriented": 0.6273344651952462,
+      "test_ci95": [
+        0.512620533182076,
+        0.7312809405940595
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MAX_early_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5614864864864865,
+      "val_auc_oriented": 0.562534435261708,
+      "test_auc_oriented": 0.5744199207696661,
+      "test_ci95": [
+        0.40643939393939393,
+        0.695437521280218
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MAX_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5250931966449208,
+      "val_auc_oriented": 0.5707988980716254,
+      "test_auc_oriented": 0.5823429541595926,
+      "test_ci95": [
+        0.44246031746031744,
+        0.703921568627451
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MAX_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5057548928238583,
+      "val_auc_oriented": 0.5289256198347108,
+      "test_auc_oriented": 0.3936049801924165,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MIN_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5099176762969866,
+      "val_auc_oriented": 0.41983471074380163,
+      "test_auc_oriented": 0.3576683644595359,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MIN_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5270658589624106,
+      "val_auc_oriented": 0.3944903581267218,
+      "test_auc_oriented": 0.44906621392190155,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MIN_mid_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.5223516620068345,
+      "val_auc_oriented": 0.5504132231404959,
+      "test_auc_oriented": 0.6451612903225806,
+      "test_ci95": [
+        0.5503968253968254,
+        0.7328616352201258
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "T2M_MIN_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.502058092575334,
+      "val_auc_oriented": 0.49146005509641877,
+      "test_auc_oriented": 0.6230899830220713,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "RH2M_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.53769027648338,
+      "val_auc_oriented": 0.5377410468319559,
+      "test_auc_oriented": 0.6842105263157895,
+      "test_ci95": [
+        0.5985201425047958,
+        0.761455525606469
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "RH2M_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5721109040074557,
+      "val_auc_oriented": 0.5399449035812672,
+      "test_auc_oriented": 0.5964912280701754,
+      "test_ci95": [
+        0.48516129032258065,
+        0.7149425287356321
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "RH2M_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5377058092575334,
+      "val_auc_oriented": 0.5366391184573003,
+      "test_auc_oriented": 0.5744199207696661,
+      "test_ci95": [
+        0.43880027739251043,
+        0.6877272727272727
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "RH2M_late_mean",
+      "direction": "-",
+      "train_auc_oriented": 0.502663870767319,
+      "val_auc_oriented": 0.5338842975206611,
+      "test_auc_oriented": 0.37294850028296544,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "GWETROOT_season_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5430956818887853,
+      "val_auc_oriented": 0.5426997245179064,
+      "test_auc_oriented": 0.6635540464063384,
+      "test_ci95": [
+        0.5629154795821463,
+        0.7345959595959596
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "GWETROOT_early_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5354457906182044,
+      "val_auc_oriented": 0.5713498622589531,
+      "test_auc_oriented": 0.5707413695529145,
+      "test_ci95": [
+        0.4241025641025641,
+        0.6831627906976744
+      ],
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "GWETROOT_mid_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5369524697110905,
+      "val_auc_oriented": 0.5674931129476584,
+      "test_auc_oriented": 0.6427560837577816,
+      "test_ci95": [
+        0.5285244922341696,
+        0.7182356813693219
+      ],
+      "pass": true
+    },
+    {
+      "group": "Summer",
+      "feature": "GWETROOT_late_mean",
+      "direction": "+",
+      "train_auc_oriented": 0.5251242621932277,
+      "val_auc_oriented": 0.4809917355371901,
+      "test_auc_oriented": 0.5984719864176571,
+      "test_ci95": null,
+      "pass": false
+    },
+    {
+      "group": "Summer",
+      "feature": "PRECTOTCORR_max_week",
+      "direction": "-",
+      "train_auc_oriented": 0.5061587449518484,
+      "val_auc_oriented": 0.49366391184573,
+      "test_auc_oriented": 0.39983022071307306,
+      "test_ci95": null,
+      "pass": false
+    }
+  ],
+  "config": {
+    "min_clim_years": 8,
+    "bootstrap_b": 300,
+    "random_seed": 42,
+    "n_feature_names": 25
+  }
+}

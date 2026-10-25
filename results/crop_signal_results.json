@@ -1,0 +1,1734 @@
+{
+  "moisture_features": [
+    "PRECTOTCORR_season_mean",
+    "GWETROOT_season_mean",
+    "RH2M_season_mean"
+  ],
+  "reproduces_08": true,
+  "season_baseline": {
+    "ALL seasons": {
+      "n": 10261,
+      "n_pos": 2882,
+      "n_states": 28,
+      "base_rate": 0.28086931098333495,
+      "eligible": true,
+      "auc": 0.5795576216957193,
+      "ci_lo": 0.558342307910156,
+      "ci_hi": 0.6003760538516598,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5611381719716757,
+        "val": 0.7093289382772916,
+        "test": 0.5559797538448228
+      },
+      "consistent": true
+    },
+    "Kharif": {
+      "n": 5445,
+      "n_pos": 1531,
+      "n_states": 26,
+      "base_rate": 0.28117539026629934,
+      "eligible": true,
+      "auc": 0.6080271894056639,
+      "ci_lo": 0.5825790844017411,
+      "ci_hi": 0.6403552332826284,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5873303145035751,
+        "val": 0.755249770501836,
+        "test": 0.5947777148965604
+      },
+      "consistent": true
+    },
+    "Rabi": {
+      "n": 4014,
+      "n_pos": 1132,
+      "n_states": 26,
+      "base_rate": 0.2820129546586946,
+      "eligible": true,
+      "auc": 0.5637219441740252,
+      "ci_lo": 0.5321902217930968,
+      "ci_hi": 0.5905631732108453,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5386803248431156,
+        "val": 0.7172964903550625,
+        "test": 0.5332753867495479
+      },
+      "consistent": true
+    },
+    "Summer": {
+      "n": 802,
+      "n_pos": 219,
+      "n_states": 10,
+      "base_rate": 0.2730673316708229,
+      "eligible": true,
+      "auc": 0.4408664050690414,
+      "ci_lo": 0.39451058201058203,
+      "ci_hi": 0.48850760639322166,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.46682976079527805,
+        "val": 0.4650137741046832,
+        "test": 0.299660441426146
+      },
+      "consistent": false
+    }
+  },
+  "groups": [
+    {
+      "season": "Kharif",
+      "crop": "Arhar/Tur",
+      "flag": "LEAD",
+      "n": 437,
+      "n_pos": 124,
+      "n_states": 21,
+      "base_rate": 0.2837528604118993,
+      "eligible": true,
+      "auc": 0.6326393898794187,
+      "ci_lo": 0.576271186440678,
+      "ci_hi": 0.6909460991445945,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.607051282051282,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Bajra",
+      "flag": "LEAD",
+      "n": 361,
+      "n_pos": 108,
+      "n_states": 17,
+      "base_rate": 0.29916897506925205,
+      "eligible": true,
+      "auc": 0.6459156785243741,
+      "ci_lo": 0.5805381101912647,
+      "ci_hi": 0.70449250036406,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6429709523225886,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Cotton(Lint)",
+      "flag": "LEAD",
+      "n": 407,
+      "n_pos": 106,
+      "n_states": 20,
+      "base_rate": 0.26044226044226043,
+      "eligible": true,
+      "auc": 0.6717545289287281,
+      "ci_lo": 0.6144828510182208,
+      "ci_hi": 0.7258749400725978,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6608193277310924,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Gram",
+      "flag": "-",
+      "n": 9,
+      "n_pos": 3,
+      "n_states": 1,
+      "base_rate": 0.3333333333333333,
+      "eligible": false,
+      "auc": 0.2222222222222222,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Groundnut",
+      "flag": "LEAD",
+      "n": 408,
+      "n_pos": 122,
+      "n_states": 20,
+      "base_rate": 0.29901960784313725,
+      "eligible": true,
+      "auc": 0.6420096297145478,
+      "ci_lo": 0.5844802973577181,
+      "ci_hi": 0.6978719728165405,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6123831775700934,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Jowar",
+      "flag": "LEAD",
+      "n": 309,
+      "n_pos": 90,
+      "n_states": 15,
+      "base_rate": 0.2912621359223301,
+      "eligible": true,
+      "auc": 0.6418061897513953,
+      "ci_lo": 0.5746348224757437,
+      "ci_hi": 0.7062203851194677,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6304927809165097,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Maize",
+      "flag": "LEAD",
+      "n": 508,
+      "n_pos": 149,
+      "n_states": 24,
+      "base_rate": 0.2933070866141732,
+      "eligible": true,
+      "auc": 0.5907161952477987,
+      "ci_lo": 0.5395047062048798,
+      "ci_hi": 0.6440902255639098,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5337962962962963,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Moong(Green Gram)",
+      "flag": "LEAD",
+      "n": 382,
+      "n_pos": 102,
+      "n_states": 19,
+      "base_rate": 0.2670157068062827,
+      "eligible": true,
+      "auc": 0.5658613445378151,
+      "ci_lo": 0.500722519071143,
+      "ci_hi": 0.6254551820728291,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.553968253968254,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Other Kharif Pulses",
+      "flag": "LEAD",
+      "n": 352,
+      "n_pos": 98,
+      "n_states": 19,
+      "base_rate": 0.2784090909090909,
+      "eligible": true,
+      "auc": 0.594448015426643,
+      "ci_lo": 0.5196395658406717,
+      "ci_hi": 0.6647103445522418,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5701397368064035,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Peas & Beans (Pulses)",
+      "flag": "-",
+      "n": 44,
+      "n_pos": 10,
+      "n_states": 3,
+      "base_rate": 0.22727272727272727,
+      "eligible": false,
+      "auc": 0.5323529411764706,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Rapeseed &Mustard",
+      "flag": "-",
+      "n": 11,
+      "n_pos": 3,
+      "n_states": 1,
+      "base_rate": 0.2727272727272727,
+      "eligible": false,
+      "auc": 0.3333333333333333,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Rice",
+      "flag": "LEAD",
+      "n": 464,
+      "n_pos": 137,
+      "n_states": 21,
+      "base_rate": 0.2952586206896552,
+      "eligible": true,
+      "auc": 0.5736288756445457,
+      "ci_lo": 0.5158977838082316,
+      "ci_hi": 0.6274522569444444,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5596019247594051,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Sesamum",
+      "flag": "LEAD",
+      "n": 433,
+      "n_pos": 121,
+      "n_states": 22,
+      "base_rate": 0.279445727482679,
+      "eligible": true,
+      "auc": 0.5732676414494596,
+      "ci_lo": 0.5131286159323543,
+      "ci_hi": 0.6342643805309734,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5672173913043478,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Small Millets",
+      "flag": "LEAD",
+      "n": 362,
+      "n_pos": 96,
+      "n_states": 19,
+      "base_rate": 0.26519337016574585,
+      "eligible": true,
+      "auc": 0.6168546365914787,
+      "ci_lo": 0.5506033182503771,
+      "ci_hi": 0.6765456401283173,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5872158585079233,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Soyabean",
+      "flag": "LEAD",
+      "n": 345,
+      "n_pos": 93,
+      "n_states": 17,
+      "base_rate": 0.26956521739130435,
+      "eligible": true,
+      "auc": 0.6466973886328725,
+      "ci_lo": 0.5749354005167958,
+      "ci_hi": 0.7134204793028323,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6286462228870606,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Sunflower",
+      "flag": "LEAD",
+      "n": 221,
+      "n_pos": 64,
+      "n_states": 13,
+      "base_rate": 0.2895927601809955,
+      "eligible": true,
+      "auc": 0.6296775477707006,
+      "ci_lo": 0.5426758938869666,
+      "ci_hi": 0.7124887690925427,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6075,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Kharif",
+      "crop": "Urad",
+      "flag": "-",
+      "n": 392,
+      "n_pos": 105,
+      "n_states": 19,
+      "base_rate": 0.26785714285714285,
+      "eligible": true,
+      "auc": 0.5414965986394558,
+      "ci_lo": 0.47499670141179573,
+      "ci_hi": 0.6177536231884058,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5294117647058824,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Arhar/Tur",
+      "flag": "-",
+      "n": 68,
+      "n_pos": 21,
+      "n_states": 4,
+      "base_rate": 0.3088235294117647,
+      "eligible": false,
+      "auc": 0.6585612968591692,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Bajra",
+      "flag": "-",
+      "n": 65,
+      "n_pos": 17,
+      "n_states": 4,
+      "base_rate": 0.26153846153846155,
+      "eligible": false,
+      "auc": 0.5735294117647058,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Cotton(Lint)",
+      "flag": "-",
+      "n": 18,
+      "n_pos": 5,
+      "n_states": 2,
+      "base_rate": 0.2777777777777778,
+      "eligible": false,
+      "auc": 0.8461538461538461,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Gram",
+      "flag": "LEAD",
+      "n": 465,
+      "n_pos": 129,
+      "n_states": 22,
+      "base_rate": 0.27741935483870966,
+      "eligible": true,
+      "auc": 0.6273071244001477,
+      "ci_lo": 0.5687966528788095,
+      "ci_hi": 0.6836609336609336,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.6131310792033349,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Groundnut",
+      "flag": "-",
+      "n": 124,
+      "n_pos": 35,
+      "n_states": 7,
+      "base_rate": 0.28225806451612906,
+      "eligible": false,
+      "auc": 0.47447833065810596,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.4532051282051282,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Jowar",
+      "flag": "-",
+      "n": 140,
+      "n_pos": 46,
+      "n_states": 7,
+      "base_rate": 0.32857142857142857,
+      "eligible": false,
+      "auc": 0.6267345050878816,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5900952380952381,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Linseed",
+      "flag": "LEAD",
+      "n": 299,
+      "n_pos": 82,
+      "n_states": 15,
+      "base_rate": 0.27424749163879597,
+      "eligible": true,
+      "auc": 0.611947847589075,
+      "ci_lo": 0.5540642722117203,
+      "ci_hi": 0.6748313440581214,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5766820276497696,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Maize",
+      "flag": "LEAD",
+      "n": 217,
+      "n_pos": 62,
+      "n_states": 12,
+      "base_rate": 0.2857142857142857,
+      "eligible": true,
+      "auc": 0.6454734651404787,
+      "ci_lo": 0.567930029154519,
+      "ci_hi": 0.7201852201852201,
+      "signal": true,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.596780303030303,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Masoor",
+      "flag": "-",
+      "n": 293,
+      "n_pos": 89,
+      "n_states": 16,
+      "base_rate": 0.3037542662116041,
+      "eligible": true,
+      "auc": 0.5381692002643754,
+      "ci_lo": 0.4633568373598428,
+      "ci_hi": 0.6138185983546808,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5354141656662665,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Moong(Green Gram)",
+      "flag": "-",
+      "n": 147,
+      "n_pos": 46,
+      "n_states": 7,
+      "base_rate": 0.3129251700680272,
+      "eligible": false,
+      "auc": 0.5634954799827809,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5402046783625731,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Other Rabi Pulses",
+      "flag": "-",
+      "n": 322,
+      "n_pos": 84,
+      "n_states": 19,
+      "base_rate": 0.2608695652173913,
+      "eligible": true,
+      "auc": 0.4913965586234494,
+      "ci_lo": 0.42209720268792,
+      "ci_hi": 0.56969405220368,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.4634453781512605,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Peas & Beans (Pulses)",
+      "flag": "-",
+      "n": 271,
+      "n_pos": 72,
+      "n_states": 15,
+      "base_rate": 0.2656826568265683,
+      "eligible": true,
+      "auc": 0.5376186487995533,
+      "ci_lo": 0.45250186706497386,
+      "ci_hi": 0.6165042235217674,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5379001280409731,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Rapeseed &Mustard",
+      "flag": "-",
+      "n": 489,
+      "n_pos": 137,
+      "n_states": 24,
+      "base_rate": 0.28016359918200406,
+      "eligible": true,
+      "auc": 0.5224162242866622,
+      "ci_lo": 0.46390723078177226,
+      "ci_hi": 0.5758727353071145,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.48447184382353914,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Rice",
+      "flag": "-",
+      "n": 128,
+      "n_pos": 35,
+      "n_states": 7,
+      "base_rate": 0.2734375,
+      "eligible": false,
+      "auc": 0.5127496159754225,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.49299568965517243,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Sesamum",
+      "flag": "-",
+      "n": 68,
+      "n_pos": 19,
+      "n_states": 3,
+      "base_rate": 0.27941176470588236,
+      "eligible": false,
+      "auc": 0.47261009667024706,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Small Millets",
+      "flag": "-",
+      "n": 103,
+      "n_pos": 29,
+      "n_states": 7,
+      "base_rate": 0.2815533980582524,
+      "eligible": false,
+      "auc": 0.5512581547064306,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5898148148148148,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Soyabean",
+      "flag": "-",
+      "n": 8,
+      "n_pos": 1,
+      "n_states": 1,
+      "base_rate": 0.125,
+      "eligible": false,
+      "auc": 1.0,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Sunflower",
+      "flag": "-",
+      "n": 114,
+      "n_pos": 32,
+      "n_states": 7,
+      "base_rate": 0.2807017543859649,
+      "eligible": false,
+      "auc": 0.6074695121951219,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5737704918032787,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Urad",
+      "flag": "-",
+      "n": 170,
+      "n_pos": 50,
+      "n_states": 9,
+      "base_rate": 0.29411764705882354,
+      "eligible": true,
+      "auc": 0.5696666666666667,
+      "ci_lo": 0.4709908735332464,
+      "ci_hi": 0.6632484892876762,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5855263157894737,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Rabi",
+      "crop": "Wheat",
+      "flag": "-",
+      "n": 505,
+      "n_pos": 141,
+      "n_states": 23,
+      "base_rate": 0.27920792079207923,
+      "eligible": true,
+      "auc": 0.5533863299820747,
+      "ci_lo": 0.49759154182144755,
+      "ci_hi": 0.6031207049882772,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5202445567409071,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Bajra",
+      "flag": "-",
+      "n": 42,
+      "n_pos": 11,
+      "n_states": 2,
+      "base_rate": 0.2619047619047619,
+      "eligible": false,
+      "auc": 0.501466275659824,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Groundnut",
+      "flag": "-",
+      "n": 89,
+      "n_pos": 23,
+      "n_states": 5,
+      "base_rate": 0.25842696629213485,
+      "eligible": false,
+      "auc": 0.42424242424242425,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Jowar",
+      "flag": "-",
+      "n": 23,
+      "n_pos": 6,
+      "n_states": 1,
+      "base_rate": 0.2608695652173913,
+      "eligible": false,
+      "auc": 0.22549019607843138,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Maize",
+      "flag": "-",
+      "n": 141,
+      "n_pos": 41,
+      "n_states": 8,
+      "base_rate": 0.2907801418439716,
+      "eligible": false,
+      "auc": 0.4851219512195122,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.5245261984392419,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Moong(Green Gram)",
+      "flag": "-",
+      "n": 102,
+      "n_pos": 35,
+      "n_states": 6,
+      "base_rate": 0.3431372549019608,
+      "eligible": false,
+      "auc": 0.3936034115138593,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.47278911564625853,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Rice",
+      "flag": "-",
+      "n": 214,
+      "n_pos": 56,
+      "n_states": 10,
+      "base_rate": 0.2616822429906542,
+      "eligible": true,
+      "auc": 0.4591998191681736,
+      "ci_lo": 0.37339107422109946,
+      "ci_hi": 0.5508536585365854,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": 0.4336772291820192,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Sesamum",
+      "flag": "-",
+      "n": 43,
+      "n_pos": 9,
+      "n_states": 3,
+      "base_rate": 0.20930232558139536,
+      "eligible": false,
+      "auc": 0.46078431372549017,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Small Millets",
+      "flag": "-",
+      "n": 8,
+      "n_pos": 3,
+      "n_states": 1,
+      "base_rate": 0.375,
+      "eligible": false,
+      "auc": 0.3333333333333333,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Sunflower",
+      "flag": "-",
+      "n": 60,
+      "n_pos": 14,
+      "n_states": 3,
+      "base_rate": 0.23333333333333334,
+      "eligible": false,
+      "auc": 0.5015527950310559,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Urad",
+      "flag": "-",
+      "n": 63,
+      "n_pos": 18,
+      "n_states": 4,
+      "base_rate": 0.2857142857142857,
+      "eligible": false,
+      "auc": 0.38395061728395063,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    },
+    {
+      "season": "Summer",
+      "crop": "Wheat",
+      "flag": "-",
+      "n": 17,
+      "n_pos": 3,
+      "n_states": 1,
+      "base_rate": 0.17647058823529413,
+      "eligible": false,
+      "auc": 0.4523809523809524,
+      "ci_lo": null,
+      "ci_hi": null,
+      "signal": false,
+      "reversed": false,
+      "split_aucs": {
+        "train": null,
+        "val": null,
+        "test": null
+      },
+      "consistent": false
+    }
+  ],
+  "n_evaluable": 24,
+  "n_strong": 0,
+  "n_lead": 16,
+  "n_reversed": 0,
+  "expected_false_positives": 0.6000000000000001,
+  "focus_experiment": {
+    "selected_groups": [
+      [
+        "Kharif",
+        "Arhar/Tur"
+      ],
+      [
+        "Kharif",
+        "Bajra"
+      ],
+      [
+        "Kharif",
+        "Cotton(Lint)"
+      ],
+      [
+        "Kharif",
+        "Groundnut"
+      ],
+      [
+        "Kharif",
+        "Jowar"
+      ],
+      [
+        "Kharif",
+        "Maize"
+      ],
+      [
+        "Kharif",
+        "Other Kharif Pulses"
+      ],
+      [
+        "Kharif",
+        "Rice"
+      ],
+      [
+        "Kharif",
+        "Sesamum"
+      ],
+      [
+        "Kharif",
+        "Small Millets"
+      ],
+      [
+        "Kharif",
+        "Soyabean"
+      ],
+      [
+        "Kharif",
+        "Sunflower"
+      ],
+      [
+        "Rabi",
+        "Gram"
+      ],
+      [
+        "Rabi",
+        "Linseed"
+      ],
+      [
+        "Rabi",
+        "Maize"
+      ]
+    ],
+    "selection_table": [
+      {
+        "season": "Kharif",
+        "crop": "Arhar/Tur",
+        "n": 375,
+        "n_pos": 113,
+        "eligible": true,
+        "auc": 0.6165642099574411,
+        "ci_lo": 0.5507044218161529,
+        "ci_hi": 0.678576527698458,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Bajra",
+        "n": 313,
+        "n_pos": 91,
+        "eligible": true,
+        "auc": 0.6416196416196416,
+        "ci_lo": 0.5773216031280547,
+        "ci_hi": 0.7070372503840245,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Cotton(Lint)",
+        "n": 354,
+        "n_pos": 93,
+        "eligible": true,
+        "auc": 0.6753594528900424,
+        "ci_lo": 0.6185218978102189,
+        "ci_hi": 0.7390104231038602,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Gram",
+        "n": 8,
+        "n_pos": 3,
+        "eligible": false,
+        "auc": 0.2,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Kharif",
+        "crop": "Groundnut",
+        "n": 352,
+        "n_pos": 111,
+        "eligible": true,
+        "auc": 0.6308923030914733,
+        "ci_lo": 0.5704833464169564,
+        "ci_hi": 0.6896857528436475,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Jowar",
+        "n": 273,
+        "n_pos": 80,
+        "eligible": true,
+        "auc": 0.6488341968911917,
+        "ci_lo": 0.5800850030358227,
+        "ci_hi": 0.7111910905880755,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Maize",
+        "n": 442,
+        "n_pos": 138,
+        "eligible": true,
+        "auc": 0.570127765064836,
+        "ci_lo": 0.5227388860500767,
+        "ci_hi": 0.6247436614466816,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Moong(Green Gram)",
+        "n": 326,
+        "n_pos": 89,
+        "eligible": true,
+        "auc": 0.560185843644811,
+        "ci_lo": 0.4978080120937264,
+        "ci_hi": 0.6324242004707186,
+        "selected": false
+      },
+      {
+        "season": "Kharif",
+        "crop": "Other Kharif Pulses",
+        "n": 301,
+        "n_pos": 86,
+        "eligible": true,
+        "auc": 0.5964305029745809,
+        "ci_lo": 0.5236909052363791,
+        "ci_hi": 0.6659816116819902,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Peas & Beans (Pulses)",
+        "n": 41,
+        "n_pos": 9,
+        "eligible": false,
+        "auc": 0.5625,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Kharif",
+        "crop": "Rapeseed &Mustard",
+        "n": 8,
+        "n_pos": 2,
+        "eligible": false,
+        "auc": 0.4166666666666667,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Kharif",
+        "crop": "Rice",
+        "n": 404,
+        "n_pos": 122,
+        "eligible": true,
+        "auc": 0.5845250552261365,
+        "ci_lo": 0.5195521390374331,
+        "ci_hi": 0.6412616487455197,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Sesamum",
+        "n": 378,
+        "n_pos": 103,
+        "eligible": true,
+        "auc": 0.579135039717564,
+        "ci_lo": 0.5059556134824952,
+        "ci_hi": 0.6383401920438957,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Small Millets",
+        "n": 317,
+        "n_pos": 92,
+        "eligible": true,
+        "auc": 0.6182608695652174,
+        "ci_lo": 0.5583356630323362,
+        "ci_hi": 0.6786089113634195,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Soyabean",
+        "n": 295,
+        "n_pos": 83,
+        "eligible": true,
+        "auc": 0.6683337122073199,
+        "ci_lo": 0.5991279069767442,
+        "ci_hi": 0.7393497757847534,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Sunflower",
+        "n": 193,
+        "n_pos": 57,
+        "eligible": true,
+        "auc": 0.6262899896800825,
+        "ci_lo": 0.5238450074515648,
+        "ci_hi": 0.7072039072039072,
+        "selected": true
+      },
+      {
+        "season": "Kharif",
+        "crop": "Urad",
+        "n": 336,
+        "n_pos": 88,
+        "eligible": true,
+        "auc": 0.5398643695014663,
+        "ci_lo": 0.4589172720881181,
+        "ci_hi": 0.5998595998595999,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Arhar/Tur",
+        "n": 59,
+        "n_pos": 18,
+        "eligible": false,
+        "auc": 0.6476964769647696,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Bajra",
+        "n": 56,
+        "n_pos": 15,
+        "eligible": false,
+        "auc": 0.5463414634146342,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Cotton(Lint)",
+        "n": 12,
+        "n_pos": 3,
+        "eligible": false,
+        "auc": 0.9629629629629629,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Gram",
+        "n": 400,
+        "n_pos": 120,
+        "eligible": true,
+        "auc": 0.6286011904761905,
+        "ci_lo": 0.5718612096564852,
+        "ci_hi": 0.6867559523809523,
+        "selected": true
+      },
+      {
+        "season": "Rabi",
+        "crop": "Groundnut",
+        "n": 103,
+        "n_pos": 32,
+        "eligible": false,
+        "auc": 0.4925176056338028,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Jowar",
+        "n": 122,
+        "n_pos": 41,
+        "eligible": false,
+        "auc": 0.6139716952725083,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Linseed",
+        "n": 262,
+        "n_pos": 72,
+        "eligible": true,
+        "auc": 0.5942251461988304,
+        "ci_lo": 0.5116071428571428,
+        "ci_hi": 0.6549249836921069,
+        "selected": true
+      },
+      {
+        "season": "Rabi",
+        "crop": "Maize",
+        "n": 182,
+        "n_pos": 58,
+        "eligible": true,
+        "auc": 0.6458565072302559,
+        "ci_lo": 0.5600591715976332,
+        "ci_hi": 0.7193987115246958,
+        "selected": true
+      },
+      {
+        "season": "Rabi",
+        "crop": "Masoor",
+        "n": 246,
+        "n_pos": 77,
+        "eligible": true,
+        "auc": 0.5543687082148621,
+        "ci_lo": 0.4689660590823381,
+        "ci_hi": 0.6241596183040555,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Moong(Green Gram)",
+        "n": 126,
+        "n_pos": 41,
+        "eligible": false,
+        "auc": 0.5581061692969871,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Other Rabi Pulses",
+        "n": 272,
+        "n_pos": 77,
+        "eligible": true,
+        "auc": 0.4807192807192807,
+        "ci_lo": 0.4092898224556139,
+        "ci_hi": 0.5478720099409755,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Peas & Beans (Pulses)",
+        "n": 227,
+        "n_pos": 59,
+        "eligible": true,
+        "auc": 0.5501412429378532,
+        "ci_lo": 0.47198731501057084,
+        "ci_hi": 0.6423985324466865,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Rapeseed &Mustard",
+        "n": 424,
+        "n_pos": 124,
+        "eligible": true,
+        "auc": 0.5200806451612904,
+        "ci_lo": 0.46116970278044106,
+        "ci_hi": 0.5765807962529274,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Rice",
+        "n": 107,
+        "n_pos": 31,
+        "eligible": false,
+        "auc": 0.5123089983022071,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Sesamum",
+        "n": 59,
+        "n_pos": 14,
+        "eligible": false,
+        "auc": 0.45714285714285713,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Small Millets",
+        "n": 86,
+        "n_pos": 23,
+        "eligible": false,
+        "auc": 0.5679779158040028,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Soyabean",
+        "n": 5,
+        "n_pos": 1,
+        "eligible": false,
+        "auc": 1.0,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Sunflower",
+        "n": 97,
+        "n_pos": 28,
+        "eligible": false,
+        "auc": 0.577639751552795,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Urad",
+        "n": 146,
+        "n_pos": 43,
+        "eligible": false,
+        "auc": 0.6105215624294423,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Rabi",
+        "crop": "Wheat",
+        "n": 437,
+        "n_pos": 132,
+        "eligible": true,
+        "auc": 0.5390710382513662,
+        "ci_lo": 0.47639689300927085,
+        "ci_hi": 0.6028547871792229,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Bajra",
+        "n": 36,
+        "n_pos": 11,
+        "eligible": false,
+        "auc": 0.5454545454545454,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Groundnut",
+        "n": 74,
+        "n_pos": 16,
+        "eligible": false,
+        "auc": 0.4525862068965517,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Jowar",
+        "n": 20,
+        "n_pos": 6,
+        "eligible": false,
+        "auc": 0.25,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Maize",
+        "n": 117,
+        "n_pos": 31,
+        "eligible": false,
+        "auc": 0.505251312828207,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Moong(Green Gram)",
+        "n": 85,
+        "n_pos": 29,
+        "eligible": false,
+        "auc": 0.44150246305418717,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Rice",
+        "n": 184,
+        "n_pos": 49,
+        "eligible": true,
+        "auc": 0.46107331821617537,
+        "ci_lo": 0.3797077922077922,
+        "ci_hi": 0.5574237288135593,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Sesamum",
+        "n": 34,
+        "n_pos": 6,
+        "eligible": false,
+        "auc": 0.5952380952380952,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Small Millets",
+        "n": 5,
+        "n_pos": 3,
+        "eligible": false,
+        "auc": 0.5,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Sunflower",
+        "n": 51,
+        "n_pos": 12,
+        "eligible": false,
+        "auc": 0.49786324786324787,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Urad",
+        "n": 51,
+        "n_pos": 16,
+        "eligible": false,
+        "auc": 0.3964285714285714,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      },
+      {
+        "season": "Summer",
+        "crop": "Wheat",
+        "n": 14,
+        "n_pos": 2,
+        "eligible": false,
+        "auc": 0.5,
+        "ci_lo": null,
+        "ci_hi": null,
+        "selected": false
+      }
+    ],
+    "comparisons": {
+      "selected": {
+        "n": 747,
+        "n_pos": 162,
+        "base_rate": 0.21686746987951808,
+        "auc": 0.6029439696106362,
+        "ci_lo": 0.5273115062877403,
+        "ci_hi": 0.6768781286282571,
+        "top_precision": 0.2866666666666667,
+        "lift": 1.3218518518518518
+      },
+      "all_groups": {
+        "n": 1446,
+        "n_pos": 332,
+        "base_rate": 0.22959889349930843,
+        "auc": 0.5559797538448228,
+        "ci_lo": 0.4985310333963453,
+        "ci_hi": 0.610833886013664,
+        "top_precision": 0.28620689655172415,
+        "lift": 1.2465517241379311
+      },
+      "rest_not_selected": {
+        "n": 699,
+        "n_pos": 170,
+        "base_rate": 0.24320457796852646,
+        "auc": 0.4999944401200934,
+        "ci_lo": 0.4329180439020256,
+        "ci_hi": 0.5658086658086658,
+        "top_precision": 0.2857142857142857,
+        "lift": 1.1747899159663866
+      },
+      "kharif_pooled": {
+        "n": 729,
+        "n_pos": 171,
+        "base_rate": 0.2345679012345679,
+        "auc": 0.5947777148965604,
+        "ci_lo": 0.5151534554146925,
+        "ci_hi": 0.6674009865427901,
+        "top_precision": 0.3493150684931507,
+        "lift": 1.4891852919971162
+      }
+    },
+    "verdict": "FOCUS HELPS"
+  }
+}

@@ -1,0 +1,5760 @@
+{
+  "scope_season": "Kharif",
+  "index": {
+    "features": [
+      "PRECTOTCORR_season_mean",
+      "GWETROOT_season_mean",
+      "RH2M_season_mean"
+    ],
+    "definition": "-(mean anomaly z); higher = drier = riskier"
+  },
+  "reproduces_08_11": true,
+  "tier_cuts": {
+    "lower": -0.40967285644235457,
+    "upper": 0.417675072513138,
+    "fitted_on": "Kharif train rows"
+  },
+  "tier_reports": {
+    "train": {
+      "n": 4220,
+      "base_rate": 0.2862559241706161,
+      "tiers": {
+        "Low": {
+          "n": 1418,
+          "n_pos": 319,
+          "share": 0.3360189573459716,
+          "rate": 0.22496473906911144,
+          "ci95": [
+            0.19098712446351931,
+            0.2640635340833885
+          ],
+          "lift_vs_base": 0.785886754032823
+        },
+        "Medium": {
+          "n": 1397,
+          "n_pos": 374,
+          "share": 0.331042654028436,
+          "rate": 0.2677165354330709,
+          "ci95": [
+            0.23217922606924643,
+            0.3018389346861129
+          ],
+          "lift_vs_base": 0.9352349168274496
+        },
+        "High": {
+          "n": 1405,
+          "n_pos": 515,
+          "share": 0.33293838862559244,
+          "rate": 0.3665480427046263,
+          "ci95": [
+            0.32664092664092664,
+            0.406816533720087
+          ],
+          "lift_vs_base": 1.2804906789847044
+        }
+      },
+      "monotone": true,
+      "diff_high_low": 0.14158330363551488,
+      "diff_ci95": [
+        0.08600213384831795,
+        0.19239915070118482
+      ]
+    },
+    "val": {
+      "n": 496,
+      "base_rate": 0.3064516129032258,
+      "tiers": {
+        "Low": {
+          "n": 164,
+          "n_pos": 19,
+          "share": 0.33064516129032256,
+          "rate": 0.11585365853658537,
+          "ci95": [
+            0.040983606557377046,
+            0.21379310344827587
+          ],
+          "lift_vs_base": 0.3780487804878049
+        },
+        "Medium": {
+          "n": 171,
+          "n_pos": 52,
+          "share": 0.34475806451612906,
+          "rate": 0.30409356725146197,
+          "ci95": [
+            0.2,
+            0.40853658536585363
+          ],
+          "lift_vs_base": 0.992305324715297
+        },
+        "High": {
+          "n": 161,
+          "n_pos": 81,
+          "share": 0.3245967741935484,
+          "rate": 0.5031055900621118,
+          "ci95": [
+            0.32967032967032966,
+            0.6491228070175439
+          ],
+          "lift_vs_base": 1.6417129780974173
+        }
+      },
+      "monotone": true,
+      "diff_high_low": 0.3872519315255264,
+      "diff_ci95": [
+        0.18549713759294598,
+        0.5500579822187863
+      ]
+    },
+    "test": {
+      "n": 729,
+      "base_rate": 0.2345679012345679,
+      "tiers": {
+        "Low": {
+          "n": 435,
+          "n_pos": 77,
+          "share": 0.5967078189300411,
+          "rate": 0.17701149425287357,
+          "ci95": [
+            0.12028301886792453,
+            0.22528735632183908
+          ],
+          "lift_vs_base": 0.7546279491833032
+        },
+        "Medium": {
+          "n": 142,
+          "n_pos": 41,
+          "share": 0.19478737997256515,
+          "rate": 0.2887323943661972,
+          "ci95": [
+            0.19745222929936307,
+            0.38144329896907214
+          ],
+          "lift_vs_base": 1.2309117865085248
+        },
+        "High": {
+          "n": 152,
+          "n_pos": 53,
+          "share": 0.2085048010973937,
+          "rate": 0.34868421052631576,
+          "ci95": [
+            0.23780487804878048,
+            0.4587628865979381
+          ],
+          "lift_vs_base": 1.4864958448753463
+        }
+      },
+      "monotone": true,
+      "diff_high_low": 0.1716727162734422,
+      "diff_ci95": [
+        0.05136986301369864,
+        0.29730722154222766
+      ]
+    }
+  },
+  "tier_verdict_test": "PASS",
+  "states": [
+    {
+      "state": "Andhra Pradesh",
+      "n": 315,
+      "n_pos": 93,
+      "n_years": 23,
+      "base_rate": 0.29523809523809524,
+      "eligible": true,
+      "auc": 0.5866511672963286,
+      "ci_lo": 0.47568233598363324,
+      "ci_hi": 0.6808411672542107,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "n": 69,
+      "n_pos": 19,
+      "n_years": 23,
+      "base_rate": 0.2753623188405797,
+      "eligible": true,
+      "auc": 0.5410526315789473,
+      "ci_lo": 0.337037037037037,
+      "ci_hi": 0.7438563327032136,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Assam",
+      "n": 113,
+      "n_pos": 37,
+      "n_years": 23,
+      "base_rate": 0.3274336283185841,
+      "eligible": true,
+      "auc": 0.5362731152204836,
+      "ci_lo": 0.2859848484848485,
+      "ci_hi": 0.7153846153846154,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Bihar",
+      "n": 213,
+      "n_pos": 54,
+      "n_years": 23,
+      "base_rate": 0.2535211267605634,
+      "eligible": true,
+      "auc": 0.5014558583740973,
+      "ci_lo": 0.3971124194000561,
+      "ci_hi": 0.5934915977594025,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Chhattisgarh",
+      "n": 287,
+      "n_pos": 91,
+      "n_years": 23,
+      "base_rate": 0.3170731707317073,
+      "eligible": true,
+      "auc": 0.6105909396725723,
+      "ci_lo": 0.50736130418299,
+      "ci_hi": 0.7042682926829268,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Goa",
+      "n": 47,
+      "n_pos": 14,
+      "n_years": 17,
+      "base_rate": 0.2978723404255319,
+      "eligible": false,
+      "auc": 0.5183982683982684,
+      "ci_lo": null,
+      "ci_hi": null,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Gujarat",
+      "n": 267,
+      "n_pos": 82,
+      "n_years": 23,
+      "base_rate": 0.30711610486891383,
+      "eligible": true,
+      "auc": 0.7512524719841793,
+      "ci_lo": 0.6063574570171931,
+      "ci_hi": 0.8464312503606255,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Haryana",
+      "n": 234,
+      "n_pos": 62,
+      "n_years": 23,
+      "base_rate": 0.26495726495726496,
+      "eligible": true,
+      "auc": 0.5454801200300075,
+      "ci_lo": 0.4380482456140351,
+      "ci_hi": 0.6427083333333333,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "n": 251,
+      "n_pos": 61,
+      "n_years": 22,
+      "base_rate": 0.24302788844621515,
+      "eligible": true,
+      "auc": 0.6022864538395168,
+      "ci_lo": 0.42661712548555986,
+      "ci_hi": 0.7461830251303936,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Karnataka",
+      "n": 316,
+      "n_pos": 97,
+      "n_years": 23,
+      "base_rate": 0.3069620253164557,
+      "eligible": true,
+      "auc": 0.6626418114202326,
+      "ci_lo": 0.5624589895013123,
+      "ci_hi": 0.7534669500961636,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Kerala",
+      "n": 51,
+      "n_pos": 16,
+      "n_years": 15,
+      "base_rate": 0.3137254901960784,
+      "eligible": true,
+      "auc": 0.2714285714285714,
+      "ci_lo": 0.1215909090909091,
+      "ci_hi": 0.4645748987854251,
+      "sensitive": false,
+      "reversed": true,
+      "flag": "REVERSED"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "n": 263,
+      "n_pos": 85,
+      "n_years": 23,
+      "base_rate": 0.3231939163498099,
+      "eligible": true,
+      "auc": 0.484699272967614,
+      "ci_lo": 0.37291013584117033,
+      "ci_hi": 0.598015873015873,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Maharashtra",
+      "n": 310,
+      "n_pos": 93,
+      "n_years": 23,
+      "base_rate": 0.3,
+      "eligible": true,
+      "auc": 0.6964967048213666,
+      "ci_lo": 0.5566926770708284,
+      "ci_hi": 0.8008179035576296,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Manipur",
+      "n": 147,
+      "n_pos": 38,
+      "n_years": 22,
+      "base_rate": 0.2585034013605442,
+      "eligible": true,
+      "auc": 0.54297440849831,
+      "ci_lo": 0.4518332135154565,
+      "ci_hi": 0.6260573308270677,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Meghalaya",
+      "n": 112,
+      "n_pos": 34,
+      "n_years": 23,
+      "base_rate": 0.30357142857142855,
+      "eligible": true,
+      "auc": 0.6517722473604827,
+      "ci_lo": 0.4177927927927928,
+      "ci_hi": 0.8629807692307693,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Mizoram",
+      "n": 137,
+      "n_pos": 34,
+      "n_years": 23,
+      "base_rate": 0.24817518248175183,
+      "eligible": true,
+      "auc": 0.7138777841233581,
+      "ci_lo": 0.5392433653303218,
+      "ci_hi": 0.8511695906432749,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Nagaland",
+      "n": 284,
+      "n_pos": 61,
+      "n_years": 23,
+      "base_rate": 0.2147887323943662,
+      "eligible": true,
+      "auc": 0.7900463133132397,
+      "ci_lo": 0.664387243191591,
+      "ci_hi": 0.8798424861643253,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Punjab",
+      "n": 200,
+      "n_pos": 57,
+      "n_years": 23,
+      "base_rate": 0.285,
+      "eligible": true,
+      "auc": 0.5394430131272236,
+      "ci_lo": 0.4407964916439493,
+      "ci_hi": 0.6417582417582418,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Rajasthan",
+      "n": 306,
+      "n_pos": 90,
+      "n_years": 23,
+      "base_rate": 0.29411764705882354,
+      "eligible": true,
+      "auc": 0.7434670781893004,
+      "ci_lo": 0.5410078694679085,
+      "ci_hi": 0.8570776255707763,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Sikkim",
+      "n": 133,
+      "n_pos": 14,
+      "n_years": 23,
+      "base_rate": 0.10526315789473684,
+      "eligible": false,
+      "auc": 0.6800720288115246,
+      "ci_lo": null,
+      "ci_hi": null,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Tamil Nadu",
+      "n": 209,
+      "n_pos": 60,
+      "n_years": 23,
+      "base_rate": 0.28708133971291866,
+      "eligible": true,
+      "auc": 0.5079977628635347,
+      "ci_lo": 0.2675267770204479,
+      "ci_hi": 0.7,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Telangana",
+      "n": 301,
+      "n_pos": 83,
+      "n_years": 23,
+      "base_rate": 0.2757475083056478,
+      "eligible": true,
+      "auc": 0.6924671161711065,
+      "ci_lo": 0.5707755102040817,
+      "ci_hi": 0.7774774774774775,
+      "sensitive": true,
+      "reversed": false,
+      "flag": "SENSITIVE"
+    },
+    {
+      "state": "Tripura",
+      "n": 169,
+      "n_pos": 47,
+      "n_years": 22,
+      "base_rate": 0.2781065088757396,
+      "eligible": true,
+      "auc": 0.47976979420997556,
+      "ci_lo": 0.40716783216783214,
+      "ci_hi": 0.5548728813559322,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "n": 262,
+      "n_pos": 76,
+      "n_years": 23,
+      "base_rate": 0.2900763358778626,
+      "eligible": true,
+      "auc": 0.6021151669496322,
+      "ci_lo": 0.4524118738404453,
+      "ci_hi": 0.7402249134948097,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "Uttarakhand",
+      "n": 251,
+      "n_pos": 76,
+      "n_years": 23,
+      "base_rate": 0.30278884462151395,
+      "eligible": true,
+      "auc": 0.5042481203007518,
+      "ci_lo": 0.3990414763056526,
+      "ci_hi": 0.6021634615384616,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    },
+    {
+      "state": "West Bengal",
+      "n": 198,
+      "n_pos": 57,
+      "n_years": 23,
+      "base_rate": 0.2878787878787879,
+      "eligible": true,
+      "auc": 0.5258180913276098,
+      "ci_lo": 0.4278953922789539,
+      "ci_hi": 0.6275314723590586,
+      "sensitive": false,
+      "reversed": false,
+      "flag": "-"
+    }
+  ],
+  "state_summary": {
+    "eligible": 24,
+    "sensitive": 8,
+    "reversed": 1,
+    "auc_above_half": 21,
+    "sign_test_p": 0.0001385807991027832,
+    "expected_false_positives": 0.6000000000000001
+  },
+  "state_year": [
+    {
+      "state": "Andhra Pradesh",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.0293,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.9976,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.227,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.4026,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.6003,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.2736,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.2559,
+      "tier": "Medium",
+      "n_records": 15,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.5825,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.952,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.6919,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.6923
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.068,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.3734,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.9548,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.631,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 1.1741,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.5482,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.0302,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 1.6559,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.6178,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.2992,
+      "tier": "Medium",
+      "n_records": 15,
+      "at_risk_share": 0.2667
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -1.0339,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 0.4437,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Andhra Pradesh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.2236,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.1718,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.2787,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.6926,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.084,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 1.6723,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.4775,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.3897,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.3389,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 1.0508,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.0872,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.6732,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.266,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.2279,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.7793,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 0.0797,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -1.4913,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.4327,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.8939,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.6982,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.999,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -2.078,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.1096,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.512,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 1.2335,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.2576,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": -0.0897,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.5095,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.4959,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.5644,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.9167,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.6319,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Assam",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.1125,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.6
+    },
+    {
+      "state": "Assam",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 2.4628,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Assam",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.0389,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Assam",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.3222,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Assam",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.5069,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Assam",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.3899,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Assam",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 0.1755,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.6
+    },
+    {
+      "state": "Assam",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -1.579,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Assam",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.7324,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Assam",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.0964,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Assam",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.1371,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Assam",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.0771,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Assam",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -1.0604,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Assam",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 0.3951,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Assam",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.7636,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Bihar",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.4075,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Bihar",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.2546,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "Bihar",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.9969,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Bihar",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.0788,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Bihar",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -0.5449,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Bihar",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.5476,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "Bihar",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.2781,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Bihar",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.6432,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Bihar",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.7137,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Bihar",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.1579,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Bihar",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.5743,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Bihar",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -2.7388,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Bihar",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 1.1722,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Bihar",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": 0.6791,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Bihar",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.3561,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Bihar",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.2577,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Bihar",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": 0.0075,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Bihar",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.1832,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Bihar",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 1.1248,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Bihar",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.8092,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Bihar",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": 0.7637,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Bihar",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 2.2558,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Bihar",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": 0.3564,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.5556
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.0951,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 1.0402,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.1813,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.486,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5714
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -0.9609,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.8112,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.7028,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.4834,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.4276,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.3946,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.9182,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.0082,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.3571
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.7995,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -0.0111,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.6791,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.9616,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.9034,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.2652,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.0065,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.3025,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.28,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 0.585,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Chhattisgarh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.0264,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.4772,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Goa",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 1.7121,
+      "tier": "High",
+      "n_records": 2,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Goa",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.3273,
+      "tier": "Medium",
+      "n_records": 2,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.6538,
+      "tier": "Low",
+      "n_records": 2,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Goa",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.0181,
+      "tier": "Low",
+      "n_records": 2,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Goa",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 1.0805,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Goa",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": -0.523,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Goa",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.6959,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Goa",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 0.0918,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.7013,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.1745,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.3298,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Goa",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.4994,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Goa",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.2796,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.0991,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 0.6879,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Goa",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -2.4486,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Gujarat",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.9073,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Gujarat",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.0221,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.3447,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Gujarat",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.2918,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Gujarat",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 1.239,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Gujarat",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.7105,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Gujarat",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.5342,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.1189,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Gujarat",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.8028,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -1.0432,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.6364
+    },
+    {
+      "state": "Gujarat",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.2298,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Gujarat",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.4141,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Gujarat",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.8604,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.6364
+    },
+    {
+      "state": "Gujarat",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.5524,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Gujarat",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.1753,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Gujarat",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.7196,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.4167
+    },
+    {
+      "state": "Gujarat",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.1598,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Gujarat",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.0344,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Gujarat",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.6781,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.4167
+    },
+    {
+      "state": "Gujarat",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.6984,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Gujarat",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.4222,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Gujarat",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 1.0978,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Gujarat",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.1291,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Haryana",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.9643,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Haryana",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.5467,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Haryana",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.6466,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "Haryana",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.346,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Haryana",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.1899,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Haryana",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.4419,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.7
+    },
+    {
+      "state": "Haryana",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.9109,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Haryana",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.7089,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.1
+    },
+    {
+      "state": "Haryana",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.0757,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Haryana",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.5403,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Haryana",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.4107,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.1
+    },
+    {
+      "state": "Haryana",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -1.5539,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Haryana",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.5748,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Haryana",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.5455,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.1818
+    },
+    {
+      "state": "Haryana",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.0982,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Haryana",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.1116,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.0909
+    },
+    {
+      "state": "Haryana",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.9241,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Haryana",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.7205,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.1818
+    },
+    {
+      "state": "Haryana",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.3324,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.4545
+    },
+    {
+      "state": "Haryana",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.1019,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Haryana",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.0814,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.4545
+    },
+    {
+      "state": "Haryana",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -0.9717,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.4545
+    },
+    {
+      "state": "Haryana",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.5515,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.1818
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.025,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.4244,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.5436,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.3803,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.2253,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.1621,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.3325,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.4749,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.3267,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.633,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -1.9384,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.2308
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.6375,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.8462
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.5924,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.4474,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.2308
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.1543,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.2308
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.6092,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.5922,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.1673,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.3042,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.4593,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.6278,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.315,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.1744,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Karnataka",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -1.6507,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Karnataka",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.1059,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Karnataka",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.4111,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.1267,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Karnataka",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.9672,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5714
+    },
+    {
+      "state": "Karnataka",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.8232,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.6429
+    },
+    {
+      "state": "Karnataka",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.6987,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.3571
+    },
+    {
+      "state": "Karnataka",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -1.6718,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Karnataka",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.0856,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Karnataka",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.9729,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.9425,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Karnataka",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.0661,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.8462
+    },
+    {
+      "state": "Karnataka",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -0.5529,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 1.1331,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Karnataka",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 1.8374,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Karnataka",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.4097,
+      "tier": "Low",
+      "n_records": 15,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Karnataka",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.9906,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.2667
+    },
+    {
+      "state": "Karnataka",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.843,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.7333
+    },
+    {
+      "state": "Karnataka",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 1.8289,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.6
+    },
+    {
+      "state": "Karnataka",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.7803,
+      "tier": "Low",
+      "n_records": 15,
+      "at_risk_share": 0.0667
+    },
+    {
+      "state": "Karnataka",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 1.6792,
+      "tier": "High",
+      "n_records": 15,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Karnataka",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": 0.3158,
+      "tier": "Medium",
+      "n_records": 15,
+      "at_risk_share": 0.1333
+    },
+    {
+      "state": "Kerala",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.6574,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.3771,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.8013,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -0.7416,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.9055,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.5399,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Kerala",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.7862,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Kerala",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.8652,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Kerala",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -1.4201,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Kerala",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.0814,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Kerala",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.2368,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Kerala",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.2154,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Kerala",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -0.241,
+      "tier": "Medium",
+      "n_records": 1,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 1.7171,
+      "tier": "High",
+      "n_records": 1,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Kerala",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.1631,
+      "tier": "Medium",
+      "n_records": 1,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.7203,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.1683,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.1818
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.1498,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.6883,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.2937,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.5736,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -1.0542,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 1.0613,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.0644,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -1.0396,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.1357,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.7778
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.09,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.6
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.42,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": 0.0596,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.406,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.0134,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.6013,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.7755,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.1829,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -1.1252,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": 0.9183,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 0.018,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Madhya Pradesh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -2.0769,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Maharashtra",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.2306,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.7143
+    },
+    {
+      "state": "Maharashtra",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.5617,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Maharashtra",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.4177,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.1077,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.6429
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.2446,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 2.1449,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -0.031,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.2771,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.6495,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -1.2383,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.2576,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.4418,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.3642,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.7968,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.2315,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.4024,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.9728,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.992,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.8571
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.9741,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.2152,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.6026,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 1.4042,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Maharashtra",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.5217,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Manipur",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.009,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Manipur",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.4247,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Manipur",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.2525,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Manipur",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 1.6093,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Manipur",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.3817,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Manipur",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.472,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Manipur",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.6703,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Manipur",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.5025,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Manipur",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.4166,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Manipur",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.0338,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Manipur",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.522,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Manipur",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.0377,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.625
+    },
+    {
+      "state": "Manipur",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.7818,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.375
+    },
+    {
+      "state": "Manipur",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.284,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Manipur",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.9475,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Manipur",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.6859,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Manipur",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.5033,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Manipur",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.7193,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Manipur",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -1.3975,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Manipur",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -2.4404,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "Manipur",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.2364,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.375
+    },
+    {
+      "state": "Manipur",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.9208,
+      "tier": "Low",
+      "n_records": 2,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Meghalaya",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 1.5494,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Meghalaya",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.4926,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Meghalaya",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.0352,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.42,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.1964,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.1947,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": -1.0528,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.8867,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.0379,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.9346,
+      "tier": "High",
+      "n_records": 2,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.0281,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.2892,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.8333
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.6983,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.6361,
+      "tier": "Low",
+      "n_records": 5,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 0.2675,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.8
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -1.4183,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.5042,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.3262,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.8245,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.9854,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -2.5219,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -0.2395,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Meghalaya",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.6513,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.0999,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.2532,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Mizoram",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.5644,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.417,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Mizoram",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.1448,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Mizoram",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.398,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Mizoram",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 1.7163,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Mizoram",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.2882,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Mizoram",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 1.1131,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Mizoram",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.3723,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Mizoram",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.6192,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.4622,
+      "tier": "High",
+      "n_records": 4,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": -0.5385,
+      "tier": "Low",
+      "n_records": 4,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Mizoram",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.7539,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "Mizoram",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 0.3361,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Mizoram",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.5245,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Mizoram",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.0918,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.8612,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -2.1308,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -2.3291,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -4.9609,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.375,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Mizoram",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -2.8316,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.0712,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Nagaland",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.2788,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Nagaland",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.7142,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Nagaland",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.6737,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Nagaland",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 1.5451,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Nagaland",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.9439,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Nagaland",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.6579,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Nagaland",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.3814,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Nagaland",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 1.0644,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Nagaland",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 1.3634,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Nagaland",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.1076,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Nagaland",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.746,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.2308
+    },
+    {
+      "state": "Nagaland",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": -0.5663,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.7692
+    },
+    {
+      "state": "Nagaland",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.8429,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.1271,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -1.3336,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.2721,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.7711,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.7815,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -1.5002,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -2.3062,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.573,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Nagaland",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.7379,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Punjab",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.1111,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Punjab",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.9429,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Punjab",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.3193,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.5556
+    },
+    {
+      "state": "Punjab",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.8576,
+      "tier": "High",
+      "n_records": 8,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Punjab",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.4946,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Punjab",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.9451,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.5556
+    },
+    {
+      "state": "Punjab",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.1093,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.6168,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.3091,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.8478,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.7894,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Punjab",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -2.3844,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Punjab",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.7658,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Punjab",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.1065,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Punjab",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.3009,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Punjab",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.3362,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Punjab",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.3726,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.3628,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Punjab",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.6632,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Punjab",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.2648,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.8538,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Punjab",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -2.451,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Punjab",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.9232,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Rajasthan",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": -0.6193,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Rajasthan",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.3802,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Rajasthan",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.5493,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.3571
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.312,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.6429
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.357,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.9412,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.05,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.6891,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.5855,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5714
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.3699,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": 0.3052,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.223,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.7302,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.9231
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.6314,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.1665,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -1.1537,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.3118,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.0253,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.4109,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.7692
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.8671,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": 0.3327,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -0.8729,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Rajasthan",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -2.0489,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Sikkim",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.5119,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Sikkim",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.0132,
+      "tier": "Medium",
+      "n_records": 5,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Sikkim",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 0.4096,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.7608,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Sikkim",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.5923,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Sikkim",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.0187,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Sikkim",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.7096,
+      "tier": "High",
+      "n_records": 5,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Sikkim",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.007,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Sikkim",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.5397,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.7218,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Sikkim",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.3441,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Sikkim",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.1637,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.3314,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -2.1701,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Sikkim",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.682,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.6364,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.1332,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": -0.7329,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.255,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -4.0694,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -3.3318,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -3.2873,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Sikkim",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -3.8103,
+      "tier": "Low",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.7235,
+      "tier": "High",
+      "n_records": 2,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.2505,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.267,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.4525,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.0225,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 0.743,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.6154
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.0402,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.6154
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -0.8818,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -0.9286,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.2579,
+      "tier": "Medium",
+      "n_records": 2,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.5673,
+      "tier": "Low",
+      "n_records": 2,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 0.1544,
+      "tier": "Medium",
+      "n_records": 2,
+      "at_risk_share": 1.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.6681,
+      "tier": "High",
+      "n_records": 2,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.5572,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.375
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.2589,
+      "tier": "Medium",
+      "n_records": 6,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 1.1957,
+      "tier": "High",
+      "n_records": 8,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.5708,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.505,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -1.4388,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 2.3831,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -1.6047,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.4167
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 2.0226,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Tamil Nadu",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -0.7082,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Telangana",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.7894,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Telangana",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -1.081,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Telangana",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.5118,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.1
+    },
+    {
+      "state": "Telangana",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.6007,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Telangana",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.0261,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Telangana",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.036,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.3571
+    },
+    {
+      "state": "Telangana",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.2481,
+      "tier": "Medium",
+      "n_records": 14,
+      "at_risk_share": 0.0714
+    },
+    {
+      "state": "Telangana",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 1.0365,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "Telangana",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": -1.7413,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Telangana",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.4678,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.4615
+    },
+    {
+      "state": "Telangana",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.0065,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Telangana",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.3532,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Telangana",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.3291,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.7692
+    },
+    {
+      "state": "Telangana",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.425,
+      "tier": "Low",
+      "n_records": 13,
+      "at_risk_share": 0.2308
+    },
+    {
+      "state": "Telangana",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 1.1763,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.5385
+    },
+    {
+      "state": "Telangana",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.6004,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Telangana",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.1251,
+      "tier": "Low",
+      "n_records": 14,
+      "at_risk_share": 0.2143
+    },
+    {
+      "state": "Telangana",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 1.047,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Telangana",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 2.2287,
+      "tier": "High",
+      "n_records": 14,
+      "at_risk_share": 0.7857
+    },
+    {
+      "state": "Telangana",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.6792,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3846
+    },
+    {
+      "state": "Telangana",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.2919,
+      "tier": "Medium",
+      "n_records": 13,
+      "at_risk_share": 0.1538
+    },
+    {
+      "state": "Telangana",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 1.8823,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.3077
+    },
+    {
+      "state": "Telangana",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": 0.6173,
+      "tier": "High",
+      "n_records": 13,
+      "at_risk_share": 0.0769
+    },
+    {
+      "state": "Tripura",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.2729,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Tripura",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": -0.2327,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.6667
+    },
+    {
+      "state": "Tripura",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.1466,
+      "tier": "Medium",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tripura",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -0.809,
+      "tier": "Low",
+      "n_records": 3,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tripura",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": -0.2267,
+      "tier": "Medium",
+      "n_records": 4,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Tripura",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.756,
+      "tier": "High",
+      "n_records": 3,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Tripura",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": -1.0568,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.1884,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.6429,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -2.2978,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": 1.1791,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": -0.1304,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Tripura",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -0.5503,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Tripura",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": 1.3786,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 0.2672,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "Tripura",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -0.0563,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Tripura",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.5283,
+      "tier": "High",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Tripura",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.8252,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.5556
+    },
+    {
+      "state": "Tripura",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -1.7261,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Tripura",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -4.5487,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Tripura",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -0.2869,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Tripura",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -2.4345,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.1111
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 1.2411,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.2791,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.5833
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.2349,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": -0.0205,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": 0.6094,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.5466,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.4545
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.4391,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.3882,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.058,
+      "tier": "Medium",
+      "n_records": 8,
+      "at_risk_share": 0.375
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.2162,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.1421,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -2.6175,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": -0.1987,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.8333
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -0.3213,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.2014,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.6081,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.2204,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.8757,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 1.643,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": -0.4812,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.7025,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.3096,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": -1.4812,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.0841,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.0909
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": -0.6473,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": 1.6608,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.1
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 1.4945,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -0.2496,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.4167
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": 1.5156,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.75
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.2957,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.1224,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.2852,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": 0.2541,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -0.3144,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -1.1469,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.7655,
+      "tier": "High",
+      "n_records": 12,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": -1.2325,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -1.3232,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": -0.3042,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.0909
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.7902,
+      "tier": "Low",
+      "n_records": 12,
+      "at_risk_share": 0.25
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 0.5302,
+      "tier": "High",
+      "n_records": 11,
+      "at_risk_share": 0.0909
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": -0.0154,
+      "tier": "Medium",
+      "n_records": 12,
+      "at_risk_share": 0.0833
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.2438,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -0.5032,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": -1.1483,
+      "tier": "Low",
+      "n_records": 11,
+      "at_risk_share": 0.3636
+    },
+    {
+      "state": "Uttarakhand",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": 0.1213,
+      "tier": "Medium",
+      "n_records": 11,
+      "at_risk_share": 0.2727
+    },
+    {
+      "state": "West Bengal",
+      "year": 1997,
+      "split": "train",
+      "index_risk_score": 0.4951,
+      "tier": "High",
+      "n_records": 6,
+      "at_risk_share": 0.1667
+    },
+    {
+      "state": "West Bengal",
+      "year": 1998,
+      "split": "train",
+      "index_risk_score": 0.3457,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.7
+    },
+    {
+      "state": "West Bengal",
+      "year": 1999,
+      "split": "train",
+      "index_risk_score": -1.0867,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "West Bengal",
+      "year": 2000,
+      "split": "train",
+      "index_risk_score": 0.328,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "West Bengal",
+      "year": 2001,
+      "split": "train",
+      "index_risk_score": -1.1945,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "West Bengal",
+      "year": 2002,
+      "split": "train",
+      "index_risk_score": -0.0575,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "West Bengal",
+      "year": 2003,
+      "split": "train",
+      "index_risk_score": 0.4443,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.2
+    },
+    {
+      "state": "West Bengal",
+      "year": 2004,
+      "split": "train",
+      "index_risk_score": 0.1703,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "West Bengal",
+      "year": 2005,
+      "split": "train",
+      "index_risk_score": 0.8558,
+      "tier": "High",
+      "n_records": 10,
+      "at_risk_share": 0.4
+    },
+    {
+      "state": "West Bengal",
+      "year": 2006,
+      "split": "train",
+      "index_risk_score": -0.4093,
+      "tier": "Medium",
+      "n_records": 10,
+      "at_risk_share": 0.3
+    },
+    {
+      "state": "West Bengal",
+      "year": 2007,
+      "split": "train",
+      "index_risk_score": -1.5809,
+      "tier": "Low",
+      "n_records": 10,
+      "at_risk_share": 0.5
+    },
+    {
+      "state": "West Bengal",
+      "year": 2008,
+      "split": "train",
+      "index_risk_score": -0.6125,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.3333
+    },
+    {
+      "state": "West Bengal",
+      "year": 2009,
+      "split": "train",
+      "index_risk_score": 0.2551,
+      "tier": "Medium",
+      "n_records": 9,
+      "at_risk_share": 0.2222
+    },
+    {
+      "state": "West Bengal",
+      "year": 2010,
+      "split": "train",
+      "index_risk_score": 1.0231,
+      "tier": "High",
+      "n_records": 8,
+      "at_risk_share": 0.375
+    },
+    {
+      "state": "West Bengal",
+      "year": 2011,
+      "split": "train",
+      "index_risk_score": -0.432,
+      "tier": "Low",
+      "n_records": 9,
+      "at_risk_share": 0.4444
+    },
+    {
+      "state": "West Bengal",
+      "year": 2012,
+      "split": "train",
+      "index_risk_score": 1.8486,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "West Bengal",
+      "year": 2013,
+      "split": "train",
+      "index_risk_score": -1.3928,
+      "tier": "Low",
+      "n_records": 8,
+      "at_risk_share": 0.125
+    },
+    {
+      "state": "West Bengal",
+      "year": 2014,
+      "split": "train",
+      "index_risk_score": 1.0002,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.2857
+    },
+    {
+      "state": "West Bengal",
+      "year": 2015,
+      "split": "val",
+      "index_risk_score": 0.5438,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "West Bengal",
+      "year": 2016,
+      "split": "val",
+      "index_risk_score": 0.031,
+      "tier": "Medium",
+      "n_records": 7,
+      "at_risk_share": 0.0
+    },
+    {
+      "state": "West Bengal",
+      "year": 2017,
+      "split": "test",
+      "index_risk_score": -1.2063,
+      "tier": "Low",
+      "n_records": 7,
+      "at_risk_share": 0.1429
+    },
+    {
+      "state": "West Bengal",
+      "year": 2018,
+      "split": "test",
+      "index_risk_score": 1.0077,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    },
+    {
+      "state": "West Bengal",
+      "year": 2019,
+      "split": "test",
+      "index_risk_score": 1.1373,
+      "tier": "High",
+      "n_records": 7,
+      "at_risk_share": 0.4286
+    }
+  ]
+}
